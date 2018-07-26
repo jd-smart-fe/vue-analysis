@@ -1,0 +1,28 @@
+{
+  "name": "vue-analysis",
+  "version": "1.0.0",
+  "description": "* [Introduction](README.md)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jd-smart-fe/vue-analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jd-smart-fe/vue-analysis/issues"
+  },
+  "homepage": "https://github.com/jd-smart-fe/vue-analysis#readme",
+  "devDependencies": {
+    "vuepress": "^0.12.0"
+  }
+}
