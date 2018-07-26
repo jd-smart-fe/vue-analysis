@@ -1,6 +1,10 @@
 module.exports = {
-  title: 'Vue analysis',
-  description: 'Just playing around',
+  base: '/vue-analysis/',
+  title: 'Vue.js 源码分析',
+  description: '大道无形，不止于行',
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ],
   themeConfig: {
     lastUpdated: '上次更新',
     nav: [
