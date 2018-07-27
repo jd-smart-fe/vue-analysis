@@ -12,6 +12,6 @@ git config user.email 'xieyankun1@jd.com'
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:jd-smart-fe/vue-analysis.git master:gh-pages
+git push -f https://github.com/jd-smart-fe/vue-analysis.git master:gh-pages
 
 cd -

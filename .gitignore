@@ -2,6 +2,7 @@
 node_modules
 *.log
 */dist
+docs/.vuepress/dist
 explorations
 TODOs.md
 dist/*.gz
