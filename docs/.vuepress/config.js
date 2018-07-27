@@ -37,6 +37,46 @@ module.exports = {
             ['chapter2/', 'Introduction'],
             'chapter2/section1.1',
         ]
+      },
+      {
+        title: '响应式原理',
+        collapsable: false,
+        children: [
+            ['chapter3/', 'Introduction'],
+            'chapter3/section1.1',
+        ]
+      },
+      {
+        title: '编译',
+        collapsable: false,
+        children: [
+            ['chapter4/', 'Introduction'],
+            'chapter4/section1.1',
+        ]
+      },
+      {
+        title: '扩展',
+        collapsable: false,
+        children: [
+            ['chapter5/', 'Introduction'],
+            'chapter5/section1.1',
+        ]
+      },
+      {
+        title: 'Vue Router',
+        collapsable: false,
+        children: [
+            ['chapter6/', 'Introduction'],
+            'chapter6/section1.1',
+        ]
+      },
+      {
+        title: 'Vuex',
+        collapsable: false,
+        children: [
+            ['chapter7/', 'Introduction'],
+            'chapter7/section1.1',
+        ]
       }
     ]
   }
