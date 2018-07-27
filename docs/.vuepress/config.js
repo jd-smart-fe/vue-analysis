@@ -3,7 +3,7 @@ module.exports = {
   title: 'Vue.js 源码分析',
   description: '大道无形，不止于行',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/jd.jpg' }]
   ],
   themeConfig: {
     lastUpdated: '上次更新',
@@ -18,7 +18,24 @@ module.exports = {
         collapsable: false,
         children: [
             ['prepare/', 'Introduction'],
+            'prepare/structure',
             'prepare/flow',
+        ]
+      },
+      {
+        title: '数据驱动',
+        collapsable: false,
+        children: [
+            ['chapter1/', 'Introduction'],
+            'chapter1/section1.1',
+        ]
+      },
+      {
+        title: '组件化',
+        collapsable: false,
+        children: [
+            ['chapter2/', 'Introduction'],
+            'chapter2/section1.1',
         ]
       }
     ]
