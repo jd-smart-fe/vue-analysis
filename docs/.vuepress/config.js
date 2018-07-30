@@ -6,11 +6,15 @@ module.exports = {
     ['link', { rel: 'icon', href: '/jd.jpg' }]
   ],
   themeConfig: {
+    repo: 'jd-smart-fe/vue-analysis',
+    editLinks: true,
+    docsDir: 'docs',
     lastUpdated: '上次更新',
+    editLinkText: '在 GitHub 上编辑此页',
     nav: [
       { text: 'Home', link: '/' },
       { text: '团队', link: '/team/' },
-      { text: 'GitHub', link: 'https://github.com/jd-smart-fe/vue-analysis' },
+      { text: 'issues', link: 'https://github.com/jd-smart-fe/vue-analysis/issues/new' }
     ],
     sidebar: [
       {
